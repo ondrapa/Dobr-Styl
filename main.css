@@ -50,6 +50,10 @@ body {
     padding: 20px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    background-image: url("img/womens dress.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: top 9.5% right 0;
 }
 
 #navbar {
@@ -75,7 +79,7 @@ body {
 #navbar li a:hover,
 #navbar li a.active {
     color: #088178;
-}
+}s
 
 #navbar li a.active::after,
 #navbar li a:hover::after {
@@ -90,4 +94,13 @@ body {
 
 .logo {
     height: 55px;
+}
+
+/* Home Page */
+#hero {
+    background-image: url("img/womens dress.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 18.25% left 0;
 }
